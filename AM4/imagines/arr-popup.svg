@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #30b5d8;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="arr-popup" class="cls-1" d="M1460.01,803l-11-16h22Z" transform="translate(-1449 -787)"/>
+</svg>
