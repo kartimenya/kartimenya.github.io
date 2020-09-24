@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__top">
+      <a class="header__logo" href="#">
+        <picture>
+          <source srcset="img/mdn-logo.png" media="(max-width: 1070px)">
+          <img src="img/logo.png" alt="">
+        </picture>
+      </a>
+
+      <div class="header__box">
+        <nav class="header__menu menu">
+          <div class="menu__burger">
+            <span></span>
+          </div>
+          <div class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item"><a class="menu__link" href="">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="">About Us</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Portfolio</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Features</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Blog</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Pricing</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Shortcodes</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="header__icons">
+          <a class="header__icon header__icon-card" href="#">
+
+            <svg class="svg" viewBox="0 0 512 512" fill="#fff" width = "24" >
+            		<path d="M465.211,473.784l-35.068-319.999c-1.918-17.507-16.646-30.708-34.257-30.708h-26.656v-9.846
+            			C369.231,50.795,318.435,0,256,0S142.769,50.795,142.769,113.231v9.846h-26.656c-17.611,0-32.339,13.202-34.257,30.708
+            			l-35.068,320c-1.064,9.722,2.069,19.475,8.596,26.757C61.911,507.824,71.265,512,81.045,512h349.91
+            			c1.778,0,3.542-0.142,5.278-0.412c0.054-0.009,0.109-0.013,0.162-0.022c0.297-0.047,0.591-0.11,0.885-0.166
+            			c0.297-0.056,0.597-0.103,0.892-0.167c0.205-0.044,0.407-0.1,0.61-0.148c0.382-0.09,0.764-0.174,1.142-0.277
+            			c3.861-1.043,7.512-2.759,10.792-5.055c0.169-0.118,0.343-0.229,0.51-0.351c1.948-1.416,3.756-3.042,5.389-4.863
+            			C463.144,493.258,466.276,483.505,465.211,473.784z M172.307,113.231c0-46.148,37.544-83.692,83.692-83.692
+            			s83.692,37.544,83.692,83.692v9.846H172.307V113.231z M111.22,157.002c0.274-2.501,2.378-4.386,4.893-4.386h26.656v44.308
+            			c0,8.157,6.613,14.769,14.769,14.769s14.769-6.613,14.769-14.769v-44.308h167.385v44.308c0,8.157,6.613,14.769,14.769,14.769
+            			s14.769-6.613,14.769-14.769v-44.308h26.656c2.516,0,4.619,1.887,4.893,4.387l26.495,241.766H84.725L111.22,157.002z
+            			 M434.621,480.824c-0.548,0.611-1.753,1.637-3.666,1.637H81.045c-1.912,0-3.117-1.026-3.666-1.637
+            			c-0.548-0.611-1.437-1.921-1.228-3.822l5.338-48.694h349.023l5.337,48.694C436.057,478.903,435.169,480.214,434.621,480.824z"/>
+            </svg>
+
+          </a>
+
+          <a class="header__icon" href="#">
+
+            <svg viewBox="0 0 192.904 192.904" fill="#fff"  width = "24">
+            <path d="M190.707,180.101l-47.078-47.077c11.702-14.072,18.752-32.142,18.752-51.831C162.381,36.423,125.959,0,81.191,0
+            	C36.422,0,0,36.423,0,81.193c0,44.767,36.422,81.187,81.191,81.187c19.688,0,37.759-7.049,51.831-18.751l47.079,47.078
+            	c1.464,1.465,3.384,2.197,5.303,2.197c1.919,0,3.839-0.732,5.304-2.197C193.637,187.778,193.637,183.03,190.707,180.101z M15,81.193
+            	C15,44.694,44.693,15,81.191,15c36.497,0,66.189,29.694,66.189,66.193c0,36.496-29.692,66.187-66.189,66.187
+            	C44.693,147.38,15,117.689,15,81.193z"/>
+            </svg>
+
+          </a>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+    <div  class="header__slider">
+      <div class="header__slider-item slider-item">
+        <div class="slider-item__info">
+          <p class="slider-item__info-suptitle">Unique and Modern Design</p>
+          <h2 class="slider-item__info-title">Portfolio PSD Template</h2>
+          <p class="slider-item__info-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+          <a class="slider-item__info-btn btn" href="#">Get Started</a>
+        </div>
+      </div>
+      <div class="header__slider-item slider-item">
+        <div class="slider-item__info">
+          <p class="slider-item__info-suptitle">Unique and Modern Design</p>
+          <h2 class="slider-item__info-title">Portfolio PSD Template</h2>
+          <p class="slider-item__info-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+          <a class="slider-item__info-btn btn" href="#">Get Started</a>
+        </div>
+      </div>
+      <div class="header__slider-item slider-item">
+        <div class="slider-item__info">
+          <p class="slider-item__info-suptitle">Unique and Modern Design</p>
+          <h2 class="slider-item__info-title">Portfolio PSD Template</h2>
+          <p class="slider-item__info-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+          <a class="slider-item__info-btn btn" href="#">Get Started</a>
+        </div>
+      </div>
+    </div>
+
+</header>
+
+<section class="inform">
+  <div class="container">
+    <div class="inform__items">
+
+      <div class="inform__item">
+        <div class="inform__item-img">
+          <img  src="img/info-icon-1.png" alt="">
+        </div>
+        <h4 class="inform__item-title">Web & App Design</h4>
+        <p class="inform__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+      </div>
+
+      <div class="inform__item">
+        <div class="inform__item-img">
+          <img src="img/info-icon-2.png" alt="">
+        </div>
+        <h4 class="inform__item-title">Web & App Design</h4>
+        <p class="inform__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+      </div>
+
+      <div class="inform__item">
+        <div class="inform__item-img">
+          <img src="img/info-icon-3.png" alt="">
+        </div>
+        <h4 class="inform__item-title">Web & App Design</h4>
+        <p class="inform__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+      </div>
+
+      <div class="inform__item">
+        <div class="inform__item-img">
+          <img src="img/info-icon-4.png" alt="">
+        </div>
+        <h4 class="inform__item-title">Web & App Design</h4>
+        <p class="inform__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <h3 class="about__title title">Waxom is Realization of your Ideas.</h3>
+    <p class="about__paregraph paregraph-style">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+    <div class="about__imagines">
+      <img class="about__imagines-left about__img" src="img/browser-left.jpg" alt="">
+      <img class="about__imagines-center about__img" src="img/browser-center.jpg" alt="">
+      <img class="about__imagines-right about__img" src="img/browser-right.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="line">
+  <div class="container">
+    <div class="line__inner">
+      <div class="line__text">
+        <h3 class="line__title"><span>Waxom</span> Multipurpose WordPress Theme</h3>
+        <p class="line__paregraph">Don't Forget to Rate the Template. Thanks so much!</p>
+      </div>
+      <a class="line__btn btn" href="#">Purchase Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="projects">
+  <div class="container">
+    <h3 class="projects__title title">Our Latest Projects.</h3>
+    <p class="projects__paregraph paregraph-style">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+    <div class="projects__filter">
+      <ul class="projects__filter-list">
+        <li class="projects__filter-item">
+          <a class="projects__filter-link _active" href="#">All</a>
+        </li>
+        <li class="projects__filter-item">
+          <a class="projects__filter-link" href="#">Web Design</a>
+        </li>
+        <li class="projects__filter-item">
+          <a class="projects__filter-link" href="#">Mobile App</a>
+        </li>
+        <li class="projects__filter-item">
+          <a class="projects__filter-link" href="#">Illustration</a>
+        </li>
+        <li class="projects__filter-item">
+          <a class="projects__filter-link" href="#">Photography</a>
+        </li>
+      </ul>
+    </div>
+    <div class="projects__items">
+
+      <div class="projects__item">
+        <div class="projects__item-img" style="background-image: url(../img/project1.jpg)">
+          <div class="projects__item-icons">
+            <a class="projects__item-icons__link" href="#">
+              <svg height="25" viewBox="0 0 512 512" fill="#fff">
+                  <path d="M141.367,116.518c-7.384-7.39-19.364-7.39-26.748,0c-27.416,27.416-40.891,65.608-36.975,104.79
+                    c0.977,9.761,9.2,17.037,18.803,17.037c0.631,0,1.267-0.032,1.898-0.095c10.398-1.04,17.983-10.316,16.943-20.707
+                    c-2.787-27.845,6.722-54.92,26.079-74.278C148.757,135.882,148.757,123.901,141.367,116.518z"/>
+
+                  <path d="M216.276,0C97.021,0,0,97.021,0,216.276s97.021,216.276,216.276,216.276s216.276-97.021,216.276-216.276
+                    S335.53,0,216.276,0z M216.276,394.719c-98.396,0-178.443-80.047-178.443-178.443S117.88,37.833,216.276,37.833
+                    c98.39,0,178.443,80.047,178.443,178.443S314.672,394.719,216.276,394.719z"/>
+
+                  <path d="M506.458,479.71L368.999,342.252c-7.39-7.39-19.358-7.39-26.748,0c-7.39,7.384-7.39,19.364,0,26.748L479.71,506.458
+                    c3.695,3.695,8.531,5.542,13.374,5.542c4.843,0,9.679-1.847,13.374-5.542C513.847,499.074,513.847,487.094,506.458,479.71z"/>
+              </svg>
+            </a>
+
+            <a class="projects__item-icons__link" href="#">
+                <svg height="25" viewBox="0 0 512 512" fill="#fff" >
+                  <path d="m226 512c-49.626 0-90-40.374-90-90v-302c0-66.168 53.832-120 120-120s120 53.832 120 120v302h-30v-302c0-49.626-40.374-90-90-90s-90 40.374-90 90v302c0 33.084 26.916 60 60 60s60-26.916 60-60v-242c0-16.542-13.458-30-30-30s-30 13.458-30 30v242h-30v-242c0-33.084 26.916-60 60-60s60 26.916 60 60v242c0 49.626-40.374 90-90 90z"/>
+                </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="projects__item-info">
+          <h4 class="projects__item-name">Claritas Etiam Processus</h4>
+          <span class="projects__item-description">Photography, Nature</span>
+        </div>
+      </div>
+
+      <div class="projects__item">
+        <div class="projects__item-img" style="background-image: url(../img/project2.jpg)">
+          <div class="projects__item-icons">
+            <a class="projects__item-icons__link" href="#">
+              <svg height="25" viewBox="0 0 512 512" fill="#fff">
+                  <path d="M141.367,116.518c-7.384-7.39-19.364-7.39-26.748,0c-27.416,27.416-40.891,65.608-36.975,104.79
+                    c0.977,9.761,9.2,17.037,18.803,17.037c0.631,0,1.267-0.032,1.898-0.095c10.398-1.04,17.983-10.316,16.943-20.707
+                    c-2.787-27.845,6.722-54.92,26.079-74.278C148.757,135.882,148.757,123.901,141.367,116.518z"/>
+
+                  <path d="M216.276,0C97.021,0,0,97.021,0,216.276s97.021,216.276,216.276,216.276s216.276-97.021,216.276-216.276
+                    S335.53,0,216.276,0z M216.276,394.719c-98.396,0-178.443-80.047-178.443-178.443S117.88,37.833,216.276,37.833
+                    c98.39,0,178.443,80.047,178.443,178.443S314.672,394.719,216.276,394.719z"/>
+
+                  <path d="M506.458,479.71L368.999,342.252c-7.39-7.39-19.358-7.39-26.748,0c-7.39,7.384-7.39,19.364,0,26.748L479.71,506.458
+                    c3.695,3.695,8.531,5.542,13.374,5.542c4.843,0,9.679-1.847,13.374-5.542C513.847,499.074,513.847,487.094,506.458,479.71z"/>
+              </svg>
+            </a>
+
+            <a class="projects__item-icons__link" href="#">
+                <svg height="25" viewBox="0 0 512 512" fill="#fff" >
+                  <path d="m226 512c-49.626 0-90-40.374-90-90v-302c0-66.168 53.832-120 120-120s120 53.832 120 120v302h-30v-302c0-49.626-40.374-90-90-90s-90 40.374-90 90v302c0 33.084 26.916 60 60 60s60-26.916 60-60v-242c0-16.542-13.458-30-30-30s-30 13.458-30 30v242h-30v-242c0-33.084 26.916-60 60-60s60 26.916 60 60v242c0 49.626-40.374 90-90 90z"/>
+                </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="projects__item-info">
+          <h4 class="projects__item-name">Claritas Etiam Processus</h4>
+          <span class="projects__item-description">Photography, Nature</span>
+        </div>
+      </div>
+
+      <div class="projects__item">
+        <div class="projects__item-img" style="background-image: url(../img/project3.jpg)">
+          <div class="projects__item-icons">
+            <a class="projects__item-icons__link" href="#">
+              <svg height="25" viewBox="0 0 512 512" fill="#fff">
+                  <path d="M141.367,116.518c-7.384-7.39-19.364-7.39-26.748,0c-27.416,27.416-40.891,65.608-36.975,104.79
+                    c0.977,9.761,9.2,17.037,18.803,17.037c0.631,0,1.267-0.032,1.898-0.095c10.398-1.04,17.983-10.316,16.943-20.707
+                    c-2.787-27.845,6.722-54.92,26.079-74.278C148.757,135.882,148.757,123.901,141.367,116.518z"/>
+
+                  <path d="M216.276,0C97.021,0,0,97.021,0,216.276s97.021,216.276,216.276,216.276s216.276-97.021,216.276-216.276
+                    S335.53,0,216.276,0z M216.276,394.719c-98.396,0-178.443-80.047-178.443-178.443S117.88,37.833,216.276,37.833
+                    c98.39,0,178.443,80.047,178.443,178.443S314.672,394.719,216.276,394.719z"/>
+
+                  <path d="M506.458,479.71L368.999,342.252c-7.39-7.39-19.358-7.39-26.748,0c-7.39,7.384-7.39,19.364,0,26.748L479.71,506.458
+                    c3.695,3.695,8.531,5.542,13.374,5.542c4.843,0,9.679-1.847,13.374-5.542C513.847,499.074,513.847,487.094,506.458,479.71z"/>
+              </svg>
+            </a>
+
+            <a class="projects__item-icons__link" href="#">
+                <svg height="25" viewBox="0 0 512 512" fill="#fff" >
+                  <path d="m226 512c-49.626 0-90-40.374-90-90v-302c0-66.168 53.832-120 120-120s120 53.832 120 120v302h-30v-302c0-49.626-40.374-90-90-90s-90 40.374-90 90v302c0 33.084 26.916 60 60 60s60-26.916 60-60v-242c0-16.542-13.458-30-30-30s-30 13.458-30 30v242h-30v-242c0-33.084 26.916-60 60-60s60 26.916 60 60v242c0 49.626-40.374 90-90 90z"/>
+                </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="projects__item-info">
+          <h4 class="projects__item-name">Claritas Etiam Processus</h4>
+          <span class="projects__item-description">Photography, Nature</span>
+        </div>
+      </div>
+
+      <div class="projects__item">
+        <div class="projects__item-img" style="background-image: url(../img/project4.jpg)">
+          <div class="projects__item-icons">
+            <a class="projects__item-icons__link" href="#">
+              <svg height="25" viewBox="0 0 512 512" fill="#fff">
+                  <path d="M141.367,116.518c-7.384-7.39-19.364-7.39-26.748,0c-27.416,27.416-40.891,65.608-36.975,104.79
+                    c0.977,9.761,9.2,17.037,18.803,17.037c0.631,0,1.267-0.032,1.898-0.095c10.398-1.04,17.983-10.316,16.943-20.707
+                    c-2.787-27.845,6.722-54.92,26.079-74.278C148.757,135.882,148.757,123.901,141.367,116.518z"/>
+
+                  <path d="M216.276,0C97.021,0,0,97.021,0,216.276s97.021,216.276,216.276,216.276s216.276-97.021,216.276-216.276
+                    S335.53,0,216.276,0z M216.276,394.719c-98.396,0-178.443-80.047-178.443-178.443S117.88,37.833,216.276,37.833
+                    c98.39,0,178.443,80.047,178.443,178.443S314.672,394.719,216.276,394.719z"/>
+
+                  <path d="M506.458,479.71L368.999,342.252c-7.39-7.39-19.358-7.39-26.748,0c-7.39,7.384-7.39,19.364,0,26.748L479.71,506.458
+                    c3.695,3.695,8.531,5.542,13.374,5.542c4.843,0,9.679-1.847,13.374-5.542C513.847,499.074,513.847,487.094,506.458,479.71z"/>
+              </svg>
+            </a>
+
+            <a class="projects__item-icons__link" href="#">
+                <svg height="25" viewBox="0 0 512 512" fill="#fff" >
+                  <path d="m226 512c-49.626 0-90-40.374-90-90v-302c0-66.168 53.832-120 120-120s120 53.832 120 120v302h-30v-302c0-49.626-40.374-90-90-90s-90 40.374-90 90v302c0 33.084 26.916 60 60 60s60-26.916 60-60v-242c0-16.542-13.458-30-30-30s-30 13.458-30 30v242h-30v-242c0-33.084 26.916-60 60-60s60 26.916 60 60v242c0 49.626-40.374 90-90 90z"/>
+                </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="projects__item-info">
+          <h4 class="projects__item-name">Claritas Etiam Processus</h4>
+          <span class="projects__item-description">Photography, Nature</span>
+        </div>
+      </div>
+
+      <div class="projects__item">
+        <div class="projects__item-img" style="background-image: url(../img/project5.jpg)">
+          <div class="projects__item-icons">
+            <a class="projects__item-icons__link" href="#">
+              <svg height="25" viewBox="0 0 512 512" fill="#fff">
+                  <path d="M141.367,116.518c-7.384-7.39-19.364-7.39-26.748,0c-27.416,27.416-40.891,65.608-36.975,104.79
+                    c0.977,9.761,9.2,17.037,18.803,17.037c0.631,0,1.267-0.032,1.898-0.095c10.398-1.04,17.983-10.316,16.943-20.707
+                    c-2.787-27.845,6.722-54.92,26.079-74.278C148.757,135.882,148.757,123.901,141.367,116.518z"/>
+
+                  <path d="M216.276,0C97.021,0,0,97.021,0,216.276s97.021,216.276,216.276,216.276s216.276-97.021,216.276-216.276
+                    S335.53,0,216.276,0z M216.276,394.719c-98.396,0-178.443-80.047-178.443-178.443S117.88,37.833,216.276,37.833
+                    c98.39,0,178.443,80.047,178.443,178.443S314.672,394.719,216.276,394.719z"/>
+
+                  <path d="M506.458,479.71L368.999,342.252c-7.39-7.39-19.358-7.39-26.748,0c-7.39,7.384-7.39,19.364,0,26.748L479.71,506.458
+                    c3.695,3.695,8.531,5.542,13.374,5.542c4.843,0,9.679-1.847,13.374-5.542C513.847,499.074,513.847,487.094,506.458,479.71z"/>
+              </svg>
+            </a>
+
+            <a class="projects__item-icons__link" href="#">
+                <svg height="25" viewBox="0 0 512 512" fill="#fff" >
+                  <path d="m226 512c-49.626 0-90-40.374-90-90v-302c0-66.168 53.832-120 120-120s120 53.832 120 120v302h-30v-302c0-49.626-40.374-90-90-90s-90 40.374-90 90v302c0 33.084 26.916 60 60 60s60-26.916 60-60v-242c0-16.542-13.458-30-30-30s-30 13.458-30 30v242h-30v-242c0-33.084 26.916-60 60-60s60 26.916 60 60v242c0 49.626-40.374 90-90 90z"/>
+                </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="projects__item-info">
+          <h4 class="projects__item-name">Claritas Etiam Processus</h4>
+          <span class="projects__item-description">Photography, Nature</span>
+        </div>
+      </div>
+
+      <div class="projects__item">
+        <div class="projects__item-img" style="background-image: url(../img/project6.jpg)">
+          <div class="projects__item-icons">
+            <a class="projects__item-icons__link" href="#">
+              <svg height="25" viewBox="0 0 512 512" fill="#fff">
+                  <path d="M141.367,116.518c-7.384-7.39-19.364-7.39-26.748,0c-27.416,27.416-40.891,65.608-36.975,104.79
+                    c0.977,9.761,9.2,17.037,18.803,17.037c0.631,0,1.267-0.032,1.898-0.095c10.398-1.04,17.983-10.316,16.943-20.707
+                    c-2.787-27.845,6.722-54.92,26.079-74.278C148.757,135.882,148.757,123.901,141.367,116.518z"/>
+
+                  <path d="M216.276,0C97.021,0,0,97.021,0,216.276s97.021,216.276,216.276,216.276s216.276-97.021,216.276-216.276
+                    S335.53,0,216.276,0z M216.276,394.719c-98.396,0-178.443-80.047-178.443-178.443S117.88,37.833,216.276,37.833
+                    c98.39,0,178.443,80.047,178.443,178.443S314.672,394.719,216.276,394.719z"/>
+
+                  <path d="M506.458,479.71L368.999,342.252c-7.39-7.39-19.358-7.39-26.748,0c-7.39,7.384-7.39,19.364,0,26.748L479.71,506.458
+                    c3.695,3.695,8.531,5.542,13.374,5.542c4.843,0,9.679-1.847,13.374-5.542C513.847,499.074,513.847,487.094,506.458,479.71z"/>
+              </svg>
+            </a>
+
+            <a class="projects__item-icons__link" href="#">
+                <svg height="25" viewBox="0 0 512 512" fill="#fff" >
+                  <path d="m226 512c-49.626 0-90-40.374-90-90v-302c0-66.168 53.832-120 120-120s120 53.832 120 120v302h-30v-302c0-49.626-40.374-90-90-90s-90 40.374-90 90v302c0 33.084 26.916 60 60 60s60-26.916 60-60v-242c0-16.542-13.458-30-30-30s-30 13.458-30 30v242h-30v-242c0-33.084 26.916-60 60-60s60 26.916 60 60v242c0 49.626-40.374 90-90 90z"/>
+                </svg>
+            </a>
+
+          </div>
+        </div>
+        <div class="projects__item-info">
+          <h4 class="projects__item-name">Claritas Etiam Processus</h4>
+          <span class="projects__item-description">Photography, Nature</span>
+        </div>
+      </div>
+
+    </div>
+
+    <a class="projects__btn btn" href="#">Load More</a>
+
+  </div>
+</section>
+
+<section class="video">
+  <div class="container">
+    <a class="video__play" href="#"><img src="img/play.svg" alt=""></a>
+    <h2 class="video__title title">Waxom Video Presentation</h2>
+    <p class="video__paregraph paregraph-style">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+  </div>
+  <span class="video__time">03:26</span>
+</section>
+
+<section  class="mobile ">
+  <div class="mobile__container container">
+    <div class="mobile__box">
+      <h3 class="mobile__title title">Excellent for Mobile Devices.</h3>
+      <p class="mobile__paregraph paregraph-style">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+
+      <ul class="mobile__list">
+        <li class="mobile__list-item">Nam liber tempor cum soluta nobis eleifend option;</li>
+        <li class="mobile__list-item">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+        <li class="mobile__list-item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+        <li class="mobile__list-item">Investigationes demonstraverunt lectores</li>
+      </ul>
+    </div>
+    <img class="mobile__img" src="img/iphone.png" alt="">
+  </div>
+</section>
+
+<section class="statistics">
+  <div class="container">
+    <ul class="statistics__list">
+      <li class="statistics__item">
+        <img src="img/icon-1.png" alt="">
+        <p class="statistics__info">3587</p>
+        <span class="statistics__name">Satisfied Clients</span>
+      </li>
+      <li class="statistics__item">
+        <img src="img/icon-2.png" alt="">
+        <p class="statistics__info">207</p>
+        <span class="statistics__name">Cups of coffee</span>
+      </li>
+      <li class="statistics__item">
+        <img src="img/icon-3.png" alt="">
+        <p class="statistics__info">2500</p>
+        <span class="statistics__name">Blog posts</span>
+      </li>
+      <li class="statistics__item">
+        <img src="img/icon-4.png" alt="">
+        <p class="statistics__info">873</p>
+        <span class="statistics__name">Likes</span>
+      </li>
+      <li class="statistics__item">
+        <img src="img/icon-5.png" alt="">
+        <p class="statistics__info">900</p>
+        <span class="statistics__name">We launched</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="posts">
+  <div class="container">
+    <h2 class="posts__title title">Recent Posts.</h2>
+    <p class="posts__paregraph paregraph-style">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+
+    <div class="posts__slider">
+
+    <div class="posts__item">
+      <div class="posts__item-img" style="background-image: url(../img/post1.jpg)" >
+        <div class="posts__item-data">
+          <span class="posts__item-number">30</span>
+          <span class="posts__item-month">Sep.</span>
+        </div>
+      </div>
+      <div class="posts__item-text">
+        <h4 class="posts__item-mame">Lorem ipsum dolor sit amet</h4>
+        <p class="posts__item-description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <a class="posts__item-link" href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="posts__item">
+      <div class="posts__item-img" style="background-image: url(../img/post2.jpg)">
+        <div class="posts__item-data">
+          <span class="posts__item-number">30</span>
+          <span class="posts__item-month">Sep.</span>
+        </div>
+      </div>
+      <div class="posts__item-text">
+        <h4 class="posts__item-mame">Lorem ipsum dolor sit amet</h4>
+        <p class="posts__item-description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <a class="posts__item-link" href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="posts__item">
+      <div class="posts__item-img" style="background-image: url(../img/post3.jpg)">
+        <div class="posts__item-data">
+          <span class="posts__item-number">30</span>
+          <span class="posts__item-month">Sep.</span>
+        </div>
+      </div>
+      <div class="posts__item-text">
+        <h4 class="posts__item-mame">Lorem ipsum dolor sit amet</h4>
+        <p class="posts__item-description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <a class="posts__item-link" href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="posts__item">
+      <div class="posts__item-img" style="background-image: url(../img/post4.jpg)">
+        <div class="posts__item-data">
+          <span class="posts__item-number">30</span>
+          <span class="posts__item-month">Sep.</span>
+        </div>
+      </div>
+      <div class="posts__item-text">
+        <h4 class="posts__item-mame">Lorem ipsum dolor sit amet</h4>
+        <p class="posts__item-description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <a class="posts__item-link" href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="posts__item">
+      <div class="posts__item-img" style="background-image: url(../img/post5.jpg)">
+        <div class="posts__item-data">
+          <span class="posts__item-number">30</span>
+          <span class="posts__item-month">Sep.</span>
+        </div>
+      </div>
+      <div class="posts__item-text">
+        <h4 class="posts__item-mame">Lorem ipsum dolor sit amet</h4>
+        <p class="posts__item-description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <a class="posts__item-link" href="#">Read More</a>
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="brands">
+  <div class="container">
+    <ul class="brands__list">
+      <li class="brands__item">
+        <a href=""><img class="brands__img" src="img/logo-01.png" alt=""></a>
+      </li>
+      <li class="brands__item">
+        <a href=""><img class="brands__img" src="img/logo-02.png" alt=""></a>
+      </li>
+      <li class="brands__item">
+        <a href=""><img class="brands__img" src="img/logo-03.png" alt=""></a>
+      </li>
+      <li class="brands__item">
+        <a href=""><img class="brands__img" src="img/logo-04.png" alt=""></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__items">
+
+      <div class="footer__item footer__item-1">
+        <a href=""><img src="img/logo.png" alt=""></a>
+        <p class="footer__item-paregraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+        <a class="footer__item-link" href="#">Read More</a>
+      </div>
+
+      <div class="footer__item footer__item-2">
+        <h5 class="footer__item-title">Recent Posts</h5>
+        <ul class="footer__item-list">
+          <li>
+            <span class="footer__item-time">September 08, 2015</span>
+            <p class="footer__item-paregraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+          </li>
+          <li class="_lite">
+            <span class="footer__item-time">September 08, 2015</span>
+            <p class="footer__item-paregraph">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+          </li>
+          <li>
+            <span class="footer__item-time">September 08, 2015</span>
+            <p class="footer__item-paregraph">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__item footer__item-3">
+        <h5 class="footer__item-title">Our Twitter</h5>
+        <ul class="footer__item-list">
+          <li>
+            <p class="footer__item-paregraph"><a class="link-teg" href="">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+            <span class="footer__item-time">September 08, 2015</span>
+          </li>
+          <li>
+            <p class="footer__item-paregraph">Mirum est <a class="link-teg" href="">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+            <span class="footer__item-time">September 08, 2015</span>
+          </li>
+          <li>
+            <p class="footer__item-paregraph">Soluta nobis option <a class="link-lite" href="">bit.ly/1Hniso7</a></p>
+            <span class="footer__item-time">September 08, 2015</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__item footer__item-4">
+        <h5 class="footer__item-title">Dribbble Widget</h5>
+        <a href="#"><img src="img/photo-foot1.jpg" alt=""></a>
+        <a href="#"><img src="img/photo-foot2.jpg" alt=""></a>
+        <a href="#"><img src="img/photo-foot3.jpg" alt=""></a>
+        <a href="#"><img src="img/photo-foot4.jpg" alt=""></a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/sliders.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
