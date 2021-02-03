@@ -1,0 +1,12 @@
+/* Webfont: Banny-Round */@font-face {
+    font-family: 'BannyRound';
+    src: url('Banny-Round.eot'); /* IE9 Compat Modes */
+    src: url('Banny-Round.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Banny-Round.woff') format('woff'), /* Modern Browsers */
+         url('Banny-Round.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Banny-Round.svg#Banny-Round') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+
+      <!-- header top -->
+      <div class="header__top header-top">
+        <div class="container">
+          <a class="header-top__logo" href="#"><img src="images/logo.svg" alt=""></a>
+          <nav class="header-top__menu menu">
+            <div class="menu__icon icon-menu">
+              <span></span>
+            </div>
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">ABOUT</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">TEAM</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">BOOKING</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">MENU</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">GALERIE</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container">
+      <!-- header main -->
+      <div class="header__main header-main">
+        <div class="header-main__inner">
+          <div class="header-main__left">
+            <p class="header-main__left-text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+          </div>
+          <div class="header-main__center">
+            <p class="header-main__subtitle subtitle">RESTAURANT</p>
+            <h1 class="header-main__title title">hungry people</h1>
+            <div class="header-main__btns">
+              <button class="header-main__btn btn" type="button" name="button">BOOK TABLE</button>
+              <button class="header-main__btn btn btn-transparent" type="button" name="button">EXPLORE</button>
+            </div>
+          </div>
+          <div class="header-main__social">
+            <ul class="header-main__social-list">
+              <li class="header-main__social-item">
+                <a href="#"><img src="images/facebook.svg" alt=""></a>
+              </li>
+              <li class="header-main__social-item">
+                <a href="#"><img src="images/instagram.svg" alt=""></a>
+              </li>
+              <li class="header-main__social-item">
+                <a href="#"><img src="images/twitter.svg" alt=""></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header-main__down-btn bounce-2">
+            <a href="#about"><img src="images/down-btn.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- about -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__left">
+          <h3 class="about__title title wow animate__animated animate__fadeInRightBig" data-wow-offset="100">about us</h3>
+          <p class="about__info info info--bold wow animate__animated animate__fadeInRightBig" data-wow-offset="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+          <p class="about__info info wow animate__animated animate__fadeInRightBig" data-wow-offset="100">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+        </div>
+
+        <div class="about__right">
+          <div class="about__img square square--right">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- chef -->
+  <section class="chef">
+    <div class="container">
+      <p class="chef__subtitle subtitle subtitle--white wow animate__animated animate__fadeInUp" data-wow-offset="200">OUR TEAM</p>
+      <div class="chef__inner">
+        <div class="chef__left">
+          <div class="chef__img square square--left">
+            <img src="images/chef.png" alt="">
+          </div>
+        </div>
+        <div class="chef__right">
+          <h3 class="chef__title title title--white wow animate__animated animate__fadeInLeft" data-wow-offset="200">MASTER CHEF</h3>
+          <p class="about__info info info--bold info--white wow animate__animated animate__fadeInLeft" data-wow-offset="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+          <p class="about__info info info--white wow animate__animated animate__fadeInLeft" data-wow-offset="200">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- book -->
+  <section class="book">
+    <div class="container">
+      <div class="book__inner">
+        <div class="book__left">
+          <h3 class="book__title title">book a table</h3>
+          <form class="book__form form" action="index.html" method="post">
+            <input class="book__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay="0" type="text" name="name" value="" placeholder="Name">
+            <input class="book__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".2s" type="text" name="email" value="" placeholder="Email">
+            <input class="book__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".4s" type="text" name="phone" value="" placeholder="Phone">
+            <input class="book__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".6s" type="text" name="people" value="" placeholder="People">
+            <input class="book__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".8s" type="text" name="date" value="" placeholder="Date (mm/dd)">
+            <input class="book__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay="1s" type="text" name="time" value="" placeholder="Time">
+            <button class="book__btn btn wow animate__animated animate__fadeInUp" data-wow-offset="100" data-wow-delay="1s" type="button" name="button">BOOK NOW</button>
+          </form>
+        </div>
+        <div class="book__right">
+          <div class="book__img square square--right">
+            <img src="images/book.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- specialties -->
+  <section class="specialties">
+    <div class="container">
+      <p class="specialties__subtitle subtitle subtitle--white wow animate__animated animate__fadeInUp" data-wow-offset="200">specialties</p>
+      <div class="specialties__slider">
+
+        <div class="specialties__item">
+          <div class="specialties__inner">
+            <div class="specialties__left">
+              <div class="specialties__img square square--left">
+                <img src="images/item-1.png" alt="">
+              </div>
+            </div>
+            <div class="specialties__right">
+              <h3 class="specialties__title title title--white wow animate__animated animate__fadeInUp" data-wow-offset="100">chocolate pancakes</h3>
+              <p class="specialties__info info info--bold info--white wow animate__animated animate__fadeInUp" data-wow-offset="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+              <p class="specialties__info info info--white wow animate__animated animate__fadeInUp" data-wow-offset="100">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- dishes -->
+  <section class="dishes">
+    <div class="container">
+      <h3 class="dishes__title title wow animate__animated animate__fadeInDown" data-wow-offset="100">DELICIOUS MENU</h3>
+      <p class="dishes__info info info--bold wow animate__animated animate__fadeInDown" data-wow-offset="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+      <div class="dishes__menu wow animate__animated animate__fadeInDown" data-wow-offset="100">
+        <ul class="dishes__menu-list">
+          <li class="dishes__menu-item"><a class="dishes__menu-link" href="">SOUPE</a></li>
+          <li class="dishes__menu-item"><a class="dishes__menu-link" href="">PIZZA</a></li>
+          <li class="dishes__menu-item"><a class="dishes__menu-link" href="">PASTA</a></li>
+          <li class="dishes__menu-item"><a class="dishes__menu-link" href="">DESERT</a></li>
+          <li class="dishes__menu-item"><a class="dishes__menu-link" href="">WINE</a></li>
+          <li class="dishes__menu-item"><a class="dishes__menu-link" href="">BEER</a></li>
+          <li class="dishes__menu-item"><a class="dishes__menu-link" href="">DRINKS</a></li>
+        </ul>
+      </div>
+
+      <div class="dishes__content">
+        <!-- col -->
+        <div class="dishes__col wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".2s">
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+        </div>
+
+        <!-- col -->
+        <div class="dishes__col wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".4s">
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+        </div>
+
+        <!-- col -->
+        <div class="dishes__col wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".6s">
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <!-- item -->
+          <div class="dishes__item">
+            <p class="dishes__name">PIZZA QUATRO STAGIONI  . . . .   55,68 USD</p>
+            <p class="dishes__ingredients">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- events -->
+  <section class="events">
+    <div class="container">
+      <p class="events__subtitle subtitle subtitle--white wow animate__animated animate__fadeInUp" data-wow-offset="100">PRIVATE EVENTS</p>
+      <div class="events__content">
+        <div class="events__left">
+          <div class="events__photo square square--left wow animate__animated animate__fadeInLeftBig" data-wow-offset="100">
+            <img src="images/private-1.png" alt="">
+            <p class="events__photo-text events__photo-text-1">weddings</p>
+          </div>
+        </div>
+        <div class="events__right">
+          <div class="events__photo square square--right wow animate__animated animate__fadeInRightBig" data-wow-offset="100">
+            <img src="images/private-2.png" alt="">
+            <p class="events__photo-text events__photo-text-2">corporate pzrties</p>
+          </div>
+        </div>
+      </div>
+      <p class="events__bottom-text">For private events please call: +40 729 131 637/+40 726 458 782 or use the contact form.</p>
+    </div>
+  </section>
+
+  <!-- gallery -->
+  <section class="gallery">
+    <div class="gallery__inner">
+      <a class="wow animate__animated animate__fadeIn" data-wow-offset="100" data-wow-delay=".2s" href="images/img-inst-1.jpg"><img src="images/img-inst-1.jpg" alt=""></a>
+      <a class="wow animate__animated animate__fadeIn" data-wow-offset="100" data-wow-delay=".4s" href="images/img-inst-2.jpg"><img src="images/img-inst-2.jpg" alt=""></a>
+      <a class="wow animate__animated animate__fadeIn" data-wow-offset="100" data-wow-delay=".6s" href="images/img-inst-3.jpg"><img src="images/img-inst-3.jpg" alt=""></a>
+      <a class="wow animate__animated animate__fadeIn" data-wow-offset="100" data-wow-delay=".8s" href="images/img-inst-4.jpg"><img src="images/img-inst-4.jpg" alt=""></a>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="contact">
+    <div class="container">
+      <h3 class="contact__title title wow animate__animated animate__fadeInUp" data-wow-offset="100">CONTACT</h3>
+      <p class="contact__info info info--bold wow animate__animated animate__fadeInUp" data-wow-offset="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+      <form class="contact__form contact-form" action="index.html" method="post">
+        <div class="contact-form__inputs">
+          <input class="contact-form__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".2s" type="text" name="nume" value="" placeholder="Nume">
+          <input class="contact-form__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".4s" type="text" name="email" value="" placeholder="Email">
+          <input class="contact-form__input input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".6s" type="text" name="phone" value="" placeholder="Phone">
+        </div>
+        <textarea class="contact-form__texarea input wow animate__animated animate__fadeInLeft" data-wow-offset="100" data-wow-delay=".2s" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+        <div class="contact-form__bottom">
+          <div class="contact-form__bottom-left">
+            <ul class="contact-form__bottom-list">
+              <li><a class="contact-form__bottom-link" href="">5th London Boulevard, U.K.</a></li>
+              <li><a class="contact-form__bottom-link" href="">+40 729 131 637/+40 726 458 782</a></li>
+              <li><a class="contact-form__bottom-link" href="">office@mindblister.com</a></li>
+            </ul>
+          </div>
+          <button class="contact-form__btn btn" type="button" name="button">SEND MESSAGE</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">© Copyright <span>Mindblister</span> 2019</p>
+    </div>
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
