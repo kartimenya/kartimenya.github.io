@@ -19,6 +19,9 @@
 
           <!-- menu -->
           <nav class="header-top__menu menu">
+            <div class="menu__btn">
+              <span></span>
+            </div>
             <div class="menu__body">
               <ul class="menu__list">
                 <li class="menu__item"><a class="menu__link" href="">О компании</a></li>
@@ -27,15 +30,37 @@
                 <li class="menu__item"><a class="menu__link" href="">Дизайн интерьера</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Контакты</a></li>
               </ul>
+              <div class="header-top__call call visibility">
+                <a class="popup-with-form" href="#form"><span class="call__phone"><img src="images/phone.svg" alt=""></span></a>
+                <a class="call__number" href="tel:+78126286111">
+                  <span>+7 (812)  628-61-11</span>
+                </a>
+              </div>
             </div>
           </nav>
 
           <div class="header-top__call call">
-            <a class="call__inner" href="tel:+78126286111">
-              <span class="call__phone"><img src="images/phone.svg" alt=""></span>
-              <span class="call__number">+7 (812)  628-61-11</span>
+            <a class="popup-with-form" href="#form"><span class="call__phone"><img src="images/phone.svg" alt=""></span></a>
+            <a class="call__number" href="tel:+78126286111">
+              <span>+7 (812)  628-61-11</span>
             </a>
           </div>
+
+          <form id="form" class="mfp-hide white-popup-block form" action="index.html" method="post">
+            <div class="form__inner">
+              <p class="form__text">Оставьте свой номер и мы перезвоним</p>
+              <div class="form__box">
+                <input class="form__input input" type="text" name="" value="" placeholder="Имя">
+                <input class="form__input input" type="text" name="" value="" placeholder="Телефон">
+              </div>
+              <a class="form__btn btn" href="#">Отправить</a>
+              <p class="form__info">или просто напишите нам</p>
+              <div class="form__social">
+                <a class="form__social-item" href="#"><img src="images/telegram-form.svg" alt=""></a>
+                <a class="form__social-item" href="#"><img src="images/viber-form.svg" alt=""></a>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -457,13 +482,17 @@
         <div class="team__block">
           <div class="team__block-left">
             <h5 class="team__block-name">Команда</h5>
-            <img src="images/team.jpg" alt="">
+            <div class="team__block-img">
+              <img src="images/team.jpg" alt="">
+            </div>
             <p class="team__block-text">В нашей команде 20 специалистов самого высокого уровня.</p>
             <a class="btn" href="#">Узнать больше</a>
           </div>
           <div class="team__block-right">
             <h5 class="team__block-name">Дизайнеры</h5>
-            <img src="images/designer.jpg" alt="">
+            <div class="team__block-img">
+              <img src="images/designer.jpg" alt="">
+            </div>
             <p class="team__block-text">Иванова Маша, опыт работы дизайнером свыше 15 лет.</p>
             <a class="btn" href="#">Смотреть портфолио</a>
           </div>
@@ -545,6 +574,10 @@
             <li class="footer__list-item footer__list-item__num"><a class="footer__list-num" href="">+7 (812)  628-61-11</a></li>
             <li class="footer__list-item"><a class="footer__list-text footer__text" href="">info@opdp.pro</a></li>
           </ul>
+          <ul class="footer-social">
+            <li class="footer-social__item"><a href=""><img src="images/telegram.svg" alt=""></a></li>
+            <li class="footer-social__item"><a href=""><img src="images/viber.svg" alt=""></a></li>
+          </ul>
         </div>
         <!-- footer col -->
         <div class="footer__col footer__col-5">
@@ -552,7 +585,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <p class="footer__text">© 2021, От окон до потолка.</p>
+        <p class="footer__text">© 2021, От пола до потолка</p>
       </div>
     </div>
   </footer>
