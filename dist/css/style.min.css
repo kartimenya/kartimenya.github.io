@@ -1397,7 +1397,9 @@ ul, li {
 @media (max-width: 1150px) {
   .menu__body {
     padding: 30px 10px 0;
-    background: #846262;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 45, 51, 0.8)), to(rgba(43, 45, 51, 0.8))), #EDEBE9;
+    background: -o-linear-gradient(bottom, rgba(43, 45, 51, 0.8), rgba(43, 45, 51, 0.8)), #EDEBE9;
+    background: linear-gradient(0deg, rgba(43, 45, 51, 0.8), rgba(43, 45, 51, 0.8)), #EDEBE9;
     position: fixed;
     left: -300px;
     top: 0;
@@ -1559,14 +1561,12 @@ ul, li {
     width: 150px;
   }
   .header-main__inner {
-    padding-bottom: 0;
-    display: block;
+    padding-bottom: 350px;
   }
   .header-main__title {
     font-size: 37px;
     line-height: 50px;
-    margin: 150px auto 0;
-    text-align: center;
+    margin-left: 0;
   }
   .header-main__title span {
     margin-left: 0;
