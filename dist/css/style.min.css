@@ -754,6 +754,10 @@ ul, li {
   margin-right: 42px;
 }
 
+.menu {
+  z-index: 100;
+}
+
 .menu__btn {
   display: none;
 }
@@ -899,6 +903,19 @@ ul, li {
 
 .projects__main {
   margin-bottom: 80px;
+}
+
+.projects__main-arr {
+  position: absolute;
+  bottom: -40px;
+}
+
+.projects__main-prev {
+  left: 0;
+}
+
+.projects__main-next {
+  right: 0;
 }
 
 .projects-item__inner {
@@ -1396,6 +1413,7 @@ ul, li {
 
 @media (max-width: 1150px) {
   .menu__body {
+    z-index: 100;
     padding: 30px 10px 0;
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 45, 51, 0.8)), to(rgba(43, 45, 51, 0.8))), #EDEBE9;
     background: -o-linear-gradient(bottom, rgba(43, 45, 51, 0.8), rgba(43, 45, 51, 0.8)), #EDEBE9;
@@ -1575,6 +1593,9 @@ ul, li {
   .projects-item__info {
     width: 100%;
   }
+  .projects-slider {
+    display: none;
+  }
   .testimonials {
     padding: 60px 0 70px;
   }
@@ -1589,6 +1610,9 @@ ul, li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .testimonials-btns {
+    display: none;
   }
   .helper-test__arrs {
     -webkit-box-orient: vertical;
