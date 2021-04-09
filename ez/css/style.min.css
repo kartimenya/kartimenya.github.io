@@ -35,7 +35,7 @@ a {
 .main {
   background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center right;
   background-size: cover;
   padding: 147px 0 147px;
 }
