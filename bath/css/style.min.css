@@ -2043,6 +2043,12 @@ ul, li {
 }
 
 @media (max-width: 460px) {
+  .videos__list-item {
+    max-width: 400px;
+  }
+  .videos__list-item img {
+    width: 100%;
+  }
   .completed__item {
     width: 300px;
   }
