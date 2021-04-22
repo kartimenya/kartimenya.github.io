@@ -924,6 +924,11 @@ ul, li {
   margin-bottom: 40px;
 }
 
+.videos__list-item iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .videos__link {
   display: -webkit-box;
   display: -ms-flexbox;
