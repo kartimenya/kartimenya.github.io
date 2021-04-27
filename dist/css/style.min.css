@@ -592,18 +592,24 @@ ul, li {
 }
 
 .btn {
-  display: block;
-  background-image: url(../images/btn.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 191px;
+  display: inline-block;
+  width: 185px;
   height: 38px;
+  position: relative;
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.03em;
   text-align: center;
-  padding: 11px 0;
+}
+
+.btn span {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .slider-arr {
@@ -686,9 +692,7 @@ ul, li {
 }
 
 .form__btn {
-  padding: 8px 0;
-  width: 155px;
-  height: 31px;
+  display: block;
   margin: 0 auto;
   margin-bottom: 38px;
 }
