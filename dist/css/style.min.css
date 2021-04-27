@@ -1435,7 +1435,7 @@ ul, li {
     left: 0;
   }
   .menu__btn {
-    z-index: 30;
+    z-index: 3000000;
     display: block;
     position: relative;
     left: 30px;
@@ -1631,5 +1631,23 @@ ul, li {
     margin-right: 0;
     text-align: center;
     margin: 10px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonials {
+    padding: 60px 0 70px;
+  }
+  .testimonials-slider__img {
+    margin-bottom: 10px;
+  }
+  .testimonials .testimonials-slider__arr {
+    bottom: -30px;
+    top: auto;
+  }
+  .testimonials__content {
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
 }
